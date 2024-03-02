@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #ffc300;
+  --background-color: #f9f9f9;
+  --darkgray-color: #444444;
+  --lightgray-color: #dddddd;
+  --white-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.section_wrapper {
+  height: 100vh;
+}
+
+.inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.section .inner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.section .inner h2 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.section .inner .box {
+  flex: 0 0 30rem;
+  height: 56rem;
+}
+
+.section {
+  background: var(--primary-color);
+}
+
+.section .inner .itm {
+  position: relative;
+  z-index: 10000;
+  flex: 0 0 30rem;
+  height: 56rem;
+  background: var(--src-img) 0 0, url(../images/soda_mockup.png);
+  background-blend-mode: multiply;
+  background-size: auto 100%;
+  -webkit-mask-image: url(../images/soda_mockup.png);
+  -webkit-mask-size: 100% auto;
+  -webkit-mask-repeat: no-repeat;
+
+  /* background-size: 100% auto;
+  background-blend-mode: multiply;
+  -webkit-mask-image: url(../images/soda_mockup.png);
+  -webkit-mask-size: 100% auto;
+  -webkit-mask-repeat: no-repeat; */
+}
+
+.section02 {
+  background: var(--darkgray-color);
+}
+
+.section02 .inner h2 {
+  color: var(--lightgray-color);
+}
+.section02 .inner p {
+  color: var(--lightgray-color);
+}
+
+.section02 .inner .box {
+  order: 2;
+}
