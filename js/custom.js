@@ -35,6 +35,11 @@ function sodaTimeline() {
         }
     });
 
+    tl.set('.section01 .inner .itm', {
+        background: 'var(--src-img) 0 0, url(./images/soda_mockup.png)',
+        //duration: 10,
+    })
+
     tl.to('.section01 .inner .itm', {
         x: 1135,
         y: 1000,
@@ -86,11 +91,12 @@ function section03Timeline() {
         }
     });
 
-    tl
-        .set('.section03 .inner .itm', {
-            autoAlpha: 0
-        });
-
+    tl.set('.section03 .inner .itm', {
+        autoAlpha: 0
+    });
+    tl.set('.section03 .inner .itm', {
+        background: 'var(--src-img) 0 0, url(./images/soda_mockup.png)',
+    })
 
     tl
         .from('.section03 .inner h2', {
