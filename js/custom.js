@@ -112,7 +112,7 @@ function section03Timeline() {
         })
         .to('.section03 .inner .itm', {
             autoAlpha: 1,
-            background: 'var(--src-img) -96rem 0, url(../images/soda_mockup.png)',
+            background: 'var(--src-img) -96rem 0, url(./images/soda_mockup.png)',
             duration: 10,
         })
 }
