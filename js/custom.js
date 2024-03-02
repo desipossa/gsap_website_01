@@ -30,7 +30,7 @@ function sodaTimeline() {
             start: '0 90%',
             end: '50% 50%',
             //pin: true,
-            scrub: 0.1,
+            scrub: 0.3,
             //markers: true,
         }
     });
@@ -38,7 +38,7 @@ function sodaTimeline() {
     tl.to('.section01 .inner .itm', {
         x: 1135,
         y: 1000,
-        background: 'var(--src-img) -960px 0, url(../images/soda_mockup.png)',
+        background: 'var(--src-img) -960px 0, url(./images/soda_mockup.png)',
         //duration: 10,
     })
 
