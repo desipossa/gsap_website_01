@@ -1,0 +1,12 @@
+.section .inner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.section .inner h2 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}

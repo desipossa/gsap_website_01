@@ -23,7 +23,7 @@ function sodaTimeline() {
             start: '0 90%',
             end: '50% 50%',
             //pin: true,
-            scrub: 0.3,
+            scrub: 1,
             //markers: true,
         }
     });
