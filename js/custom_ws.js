@@ -85,7 +85,16 @@ function mainVisualSlideTimeline(itm, num, slideNumber) {
     tl.fromTo(itm[1], { x: 300, autoAlpha: 0, }, { x: 0, autoAlpha: 1, });
     tl.fromTo(itm[2], { x: 300, autoAlpha: 0, }, { x: 0, autoAlpha: 1, });
     tl.fromTo(itm[3], { x: 300, autoAlpha: 0, }, { x: 0, autoAlpha: 1, });
+}
 
 
-
+document.querySelector('.controls .stop').onclick = (e) => {
+    document.querySelectorAll('.controls button').forEach(it => it.classList.remove('on'))
+    e.target.classList.add('on');
+    mainVisualSlide.autoplay.pause();
+}
+document.querySelector('.controls .play').onclick = (e) => {
+    document.querySelectorAll('.controls button').forEach(it => it.classList.remove('on'))
+    e.target.classList.add('on');
+    mainVisualSlide.autoplay.start();
 }
